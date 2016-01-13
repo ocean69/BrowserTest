@@ -1,0 +1,5 @@
+Debug/
+BrowserTest/Debug/
+*.sdf
+*~
+*.swp
