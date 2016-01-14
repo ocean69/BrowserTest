@@ -42,7 +42,7 @@ BOOL GetRequest(WCHAR *site, WCHAR *uri)
 			if (r) {
 				printf("%s", data);
 			}
-			delete data;
+			delete [] data;
 		}
 	}
 	
